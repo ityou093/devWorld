@@ -3,7 +3,7 @@ const router = express.Router();
 const db = require("../model/db.js");
 
 router.get("/", function (req, res) {
-  res.render("index", { title: "EJS 메인페이지" });
+  res.render("main", { title: "영화 리뷰 사이트" });
 });
 
 // http://localhost:3000/getApi?page=1
